@@ -1,0 +1,11 @@
+name: ansible
+channels:
+  - conda-forge
+dependencies:
+  - ansible<9.0.O
+  - pip
+  - pip:
+    - ansible-compat
+    - ansible-lint
+    - molecule<6.0.0
+    - molecule-podman
